@@ -34,12 +34,13 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <150>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <50>;
             flavor = "balanced";
             hold-trigger-on-release;
             hold-trigger-key-positions = <28 27 26 25>;
+            retro-tap;
         };
 
         hmr: hmr {
@@ -48,12 +49,13 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <150>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <50>;
             flavor = "balanced";
             hold-trigger-on-release;
             hold-trigger-key-positions = <31 32 33 34>;
+            retro-tap;
         };
     };
 
